@@ -1,0 +1,23 @@
+{
+  "name": "mern_practice",
+  "version": "1.0.0",
+  "description": "MERN sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaneTree/MERN_practice.git"
+  },
+  "author": "Dane M Goodman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaneTree/MERN_practice/issues"
+  },
+  "homepage": "https://github.com/DaneTree/MERN_practice#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
