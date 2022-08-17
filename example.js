@@ -10,7 +10,7 @@ app.get('/example/c', function(req, res) {
     res.send('Hello from sub route C!');
 });
 
-app.get('example/b', function(req, res) {
+app.get('/example/b', function(req, res) {
     res.send('Hello from sub route B!');
 });
 
@@ -40,7 +40,7 @@ app.get(
     }
 );
 
-app.get('example/c/withmiddleware', [callbackOne, callbackTwo, callbackThree]);
+app.get('/example/c/withmiddleware', [callbackOne, callbackTwo, callbackThree]);
 
 app.listen(PORT, ()=> {
     console.log(`Listening on port: ${PORT}`);
