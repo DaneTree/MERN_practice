@@ -1,0 +1,1 @@
+module.exports = 'greetings from hello js';
