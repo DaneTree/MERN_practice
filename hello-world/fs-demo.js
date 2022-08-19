@@ -14,8 +14,8 @@ fs.writeFile(
     })
 
     fs.appendFile(
-        path.join(__dirname, '/test', '/hello.txt'), 'Hello World!', 
+        path.join(__dirname, '/test', '/hello.txt'), ' This is an extra string of text...', 
         err => {
             if (err) throw err;
-            console.log('This is an extra string of text...');
+            console.log('File being written too again...');
         })
